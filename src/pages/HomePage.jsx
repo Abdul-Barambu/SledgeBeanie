@@ -35,7 +35,7 @@ export default function HomePage() {
       <div className={` relative`}>
         {/* Background image */}
         <img
-          className="w-dvw h-[75dvh] sm:h-dvh object-cover"
+          className="w-full h-[90vh] sm:h-screen object-cover"
           src={homePage}
           alt="Home"
         />
@@ -59,12 +59,12 @@ export default function HomePage() {
           <a href="#contact">
             <div className='text-xs cursor-pointer font-bold'>
               <span className='hidden sm:block orange px-5 py-2 contact-round text-font'>Contact Us</span>
-              {/* mobile menu */}
-              <div className='block sm:hidden'>
-                <HiOutlineMenu color='white' size={30} onClick={handleMenu} />
-              </div>
             </div>
           </a>
+          {/* mobile menu */}
+          <div className='block sm:hidden'>
+            <HiOutlineMenu color='white' size={30} onClick={handleMenu} />
+          </div>
         </div>
 
         {/* page texts */}
@@ -72,17 +72,19 @@ export default function HomePage() {
         <div className='absolute inset-0 flex flex-col justify-center items-center mx-7 sm:mx-28 text-white -mt-52 sm:-mt-96 xl:-mt-7'>
           {/* big text */}
           <Slide direction='up' duration={1500} triggerOnce>
-            <div className='mt-48 sm:mt-0'>
+            <div className='mt-64 sm:mt-0'>
               <p className='text-font text-4xl tracking-wide leading-relaxed sm:leading-normal sm:text-3xl xl:text-[42px] text-center font-medium sm:font-semibold'>Your trusted partner in real estate, auto export, and logistics</p>
             </div>
             {/* small text */}
-            <div className='mt-7 sm:mt-3 mb-20 sm:mb-10'>
+            <div className='mt-5 sm:mt-3 mb-20 sm:mb-10'>
               <p className='text-font text-gray-400 font-medium text-center leading-relaxed sm:leading-none'>Global reach, reliable service, and a commitment to excellence.</p>
             </div>
             {/*  explore service button */}
-            <div className='text-lg sm:text-xs cursor-pointer font-semibold text-black' onClick={handleService}>
-              <span className='orange px-8 sm:px-6 py-4 sm:py-2.5 contact-round text-font'>Explore Services</span>
-            </div>
+            <a href="#service">
+              <div className='text-lg sm:text-xs cursor-pointer font-semibold text-black'>
+                <span className='orange px-8 sm:px-6 py-4 sm:py-2.5 contact-round text-font'>Explore Services</span>
+              </div>
+            </a>
           </Slide>
         </div>
       </div>
@@ -90,7 +92,7 @@ export default function HomePage() {
       {/* mobile menu view */}
       {
         menu && (
-          <div className="fixed inset-0 bg-black/90 z-30 flex flex-col justify-center items-center text-white">
+          <div className="fixed inset-0 bg-black z-30 flex flex-col justify-center items-center text-white">
             {/* cancel */}
             <div className="absolute top-5 right-5">
               <AiOutlineClose size={40} onClick={handleMenu} />

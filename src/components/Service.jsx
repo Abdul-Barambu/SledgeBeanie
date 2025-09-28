@@ -3,8 +3,16 @@ import { TbBuildingEstate } from "react-icons/tb";
 import { FaCarSide } from "react-icons/fa6";
 import { MdOutlineStackedLineChart } from "react-icons/md";
 import { Slide } from 'react-awesome-reveal';
+import { useHistory } from 'react-router-dom/cjs/react-router-dom';
 
 const Service = () => {
+
+    const history = useHistory();
+
+    const handleService = () => {
+        history.push('/service')
+    }
+
     return (
         <div>
             {/* service text */}
@@ -95,7 +103,7 @@ const Service = () => {
             </div>
 
             {/* button */}
-            <div className='mx-auto mt-5 mb-10 text-lg sm:text-xs cursor-pointer font-semibold text-black orange px-8 sm:px-6 py-4 sm:py-2.5 contact-round w-full sm:w-60 text-center'>
+            <div onClick={handleService} className='mx-auto mt-5 mb-10 text-lg sm:text-xs cursor-pointer font-semibold text-black orange px-8 sm:px-6 py-4 sm:py-2.5 contact-round w-full sm:w-60 text-center'>
                 <span className='text-font'>See More Information</span>
             </div>
         </div>
