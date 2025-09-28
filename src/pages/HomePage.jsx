@@ -13,20 +13,14 @@ import Logo from '../images/logo.png'
 import Alamin from '../images/Alamin.jpg'
 import Mission from '../images/Mission.jpg'
 import Footer from '../components/Footer';
-import { useHistory } from 'react-router-dom/cjs/react-router-dom';
 
 export default function HomePage() {
 
   const [clicked, setClicked] = useState("home");
   const [menu, setMenu] = useState(false);
-  const history = useHistory();
 
   const handleMenu = () => {
     setMenu(!menu);
-  }
-
-  const handleService = () => {
-    history.push('/service')
   }
 
   return (
@@ -50,7 +44,7 @@ export default function HomePage() {
             <img src={Logo} alt="Logo" className='w-8 sm:w-14 h-6 sm:h-12 rounded-full' />
           </div>
           {/* texts */}
-          <div className={`font-semibold cursor-pointer text-xs hidden sm:flex md:gap-10 lg:gap-15 z-10`}>
+          <div className={`font-semibold cursor-pointer text-xs hidden sm:flex gap-6 md:gap-10 lg:gap-15 z-10`}>
             <span onClick={() => setClicked("home")} className={`${clicked === "home" ? "text-white" : "text-gray-400"} text-font`}>Home</span>
             <span onClick={() => setClicked("about")} className={`${clicked === "about" ? "text-white" : "text-gray-400"} text-font`}><a href='#about'>About Us</a></span>
             <span onClick={() => setClicked("services")} className={`${clicked === "services" ? "text-white" : "text-gray-400"} text-font`}><a href='#service'>Services</a></span>
