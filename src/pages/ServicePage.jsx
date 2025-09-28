@@ -134,7 +134,7 @@ export default function ServicePage() {
                 <div className='my-10 lg:my-14 mx-0 sm:mx-7 lg:mx-16 border-2 border-gray-100 sm:grid grid-cols-2'>
                     {/* image */}
                     <div className='px-14 sm:px-5 lg:px-16'>
-                        <img src={Export} alt="Export" className='h-3/4 mt-8' />
+                        <img src={Export} alt="Export" className='sm:h-3/4 mt-8' />
                     </div>
                     {/* texts */}
                     <div className='pt-1 pb-10 sm:pr-8 lg:pr-16 px-5 sm:px-0'>
@@ -167,7 +167,7 @@ export default function ServicePage() {
                 <div className='my-10 lg:my-14 mx-0 sm:mx-7 lg:mx-16 border-2 border-gray-100 sm:grid grid-cols-2'>
                     {/* image */}
                     <div className='px-14 sm:px-5 lg:px-16'>
-                        <img src={Truck} alt="House" className='h-3/4 mt-8' />
+                        <img src={Truck} alt="House" className='sm:h-3/4 mt-8 w-full' />
                     </div>
                     {/* texts */}
                     <div className='pt-1 pb-10 sm:pr-8 lg:pr-16 px-5 sm:px-0'>
