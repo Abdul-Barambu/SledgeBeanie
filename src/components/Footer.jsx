@@ -11,7 +11,7 @@ const Footer = () => {
                 {/* footer info */}
                 <div className='sm:grid grid-cols-3 pt-10 pb-10 sm:pb-20'>
                     {/* first */}
-                    <div className='px-6 sm:px-10'>
+                    <div className='px-4'>
                         {/* image and name */}
                         <div className='sm:flex items-center gap-6'>
                             <div className='bg-white w-16 sm:w-10 lg:w-20 h-16 sm:h-10 lg:h-20 rounded-full flex justify-center items-center -mt-2 sm:-mt-5'>
@@ -25,7 +25,7 @@ const Footer = () => {
                         </div>
                         {/* small text */}
                         <div className='mt-4 sm:mt-2'>
-                            <p className='text-white font-normal sm:font-medium text-font text-left sm:text-xs lg:text-md'>Your Trusted Partner In Real Estate, Auto Export And Logistics</p>
+                            <p className='text-white font-normal sm:font-medium text-font text-left sm:text-xs lg:text-lg'>Your Trusted Partner In Real Estate, Auto Export And Logistics</p>
                         </div>
                         {/* socails */}
                         <div className='mt-3 sm:mt-4 flex gap-4'>
@@ -49,7 +49,7 @@ const Footer = () => {
                     {/* middle */}
                     <div className='flex mt-10 sm:mt-0'>
                         <hr className="hidden sm:block w-px h-56 bg-gray-400 mx-4 border-0" />
-                        <div className='px-6'>
+                        <div className='px-4 sm:px-0'>
                             <div className='mb-4'>
                                 <h1 className='text-white text-font text-xl sm:text-lg lg:text-2xl font-semibold tracking-wide'>Quick Links</h1>
                             </div>
@@ -64,7 +64,7 @@ const Footer = () => {
                     {/* left */}
                     <div className='flex mt-10 sm:mt-0'>
                         <hr className="hidden sm:block w-px h-56 bg-gray-400 mx-4 border-0" />
-                        <div className='px-6'>
+                        <div className='px-4 sm:px-0'>
                             <div className='mb-2 text-left'>
                                 <h1 className='text-white text-font text-xl sm:text-sm lg:text-2xl font-semibold tracking-wide'>Contact Address</h1>
                             </div>

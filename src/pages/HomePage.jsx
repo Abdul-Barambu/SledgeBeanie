@@ -66,7 +66,7 @@ export default function HomePage() {
         <div className='absolute inset-0 flex flex-col justify-center items-center mx-7 sm:mx-28 text-white -mt-52 sm:-mt-96 xl:-mt-7'>
           {/* big text */}
           <Slide direction='up' duration={1500} triggerOnce>
-            <div className='mt-64 sm:mt-0'>
+            <div className='mt-64 sm:mt-20'>
               <p className='text-font text-4xl tracking-wide leading-relaxed sm:leading-normal sm:text-3xl xl:text-[42px] text-center font-medium sm:font-semibold'>Your trusted partner in real estate, auto export, and logistics</p>
             </div>
             {/* small text */}

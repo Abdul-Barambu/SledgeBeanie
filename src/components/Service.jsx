@@ -31,11 +31,11 @@ const Service = () => {
                         </div>
                         {/* text */}
                         <div className='mt-3 mb-5 text-left'>
-                            <p className='text-white text-font font-semibold text-2xl tracking-wide'>Real Estate</p>
-                            <p className='text-gray-400 text-font text-sm tracking-wider mt-1'>Transform property for your benefit</p>
+                            <p className='text-white text-font font-semibold text-2xl sm:text-lg lg:text-2xl tracking-wide'>Real Estate</p>
+                            <p className='text-gray-400 text-font text-sm sm:text-[10px] lg:text-sm tracking-wider mt-1'>Transform property for your benefit</p>
                         </div>
                         {/* lists */}
-                        <div className='text-white text-font tracking-wide mx-4 font-medium text-sm lg:text-[16px] text-left'>
+                        <div className='text-white text-font tracking-wide mx-4 font-medium text-sm sm:text-[11px] lg:text-[16px] text-left'>
                             <li>
                                 <ul>Fix and flip investment</ul>
                             </li>
@@ -56,11 +56,11 @@ const Service = () => {
                         </div>
                         {/* text */}
                         <div className='mt-3 mb-5 text-left'>
-                            <p className='text-white text-font font-semibold text-2xl tracking-wide'>Auto Export</p>
-                            <p className='text-gray-400 text-font text-sm tracking-wider mt-1'>Trade cars with confidence</p>
+                            <p className='text-white text-font font-semibold text-2xl sm:text-lg lg:text-2xl tracking-wide'>Auto Export</p>
+                            <p className='text-gray-400 text-font text-sm sm:text-[10px] lg:text-sm tracking-wider mt-1'>Trade cars with confidence</p>
                         </div>
                         {/* lists */}
-                        <div className='text-white text-font tracking-wide mx-4 font-medium text-sm lg:text-[16px] text-left'>
+                        <div className='text-white text-font tracking-wide mx-4 font-medium text-sm sm:text-[11px] lg:text-[16px] text-left'>
                             <li>
                                 <ul>Vehicle sourcing </ul>
                             </li>
@@ -83,11 +83,11 @@ const Service = () => {
                         </div>
                         {/* text */}
                         <div className='mt-3 mb-5 text-left'>
-                            <p className='text-white text-font font-semibold text-2xl tracking-wide'>Logistics</p>
-                            <p className='text-gray-400 text-font text-sm tracking-wider mt-1'>Move goods with certainty</p>
+                            <p className='text-white text-font font-semibold text-2xl sm:text-lg lg:text-2xl tracking-wide'>Logistics</p>
+                            <p className='text-gray-400 text-font text-sm sm:text-[10px] lg:text-sm tracking-wider mt-1'>Move goods with certainty</p>
                         </div>
                         {/* lists */}
-                        <div className='text-white text-font tracking-wide mx-4 font-medium text-sm lg:text-[16px] text-left'>
+                        <div className='text-white text-font tracking-wide mx-4 font-medium text-sm sm:text-[11px] lg:text-[16px] text-left'>
                             <li>
                                 <ul>Inland trucking</ul>
                             </li>
