@@ -44,11 +44,11 @@ export default function ServicePage() {
                         <div className='text-xs cursor-pointer font-bold'>
                             <span className='hidden sm:block orange px-5 py-2 contact-round text-font'>Contact Us</span>
                             {/* mobile menu */}
-                            <div className='block sm:hidden'>
-                                <HiOutlineMenu color='white' size={30} onClick={handleMenu} />
-                            </div>
                         </div>
                     </a>
+                    <div className='block sm:hidden'>
+                        <HiOutlineMenu color='white' size={30} onClick={handleMenu} />
+                    </div>
                 </div>
             </div>
 
@@ -167,7 +167,7 @@ export default function ServicePage() {
                 <div className='my-10 lg:my-14 mx-0 sm:mx-7 lg:mx-16 border-2 border-gray-100 sm:grid grid-cols-2'>
                     {/* image */}
                     <div className='px-14 sm:px-5 lg:px-16'>
-                        <img src={Truck} alt="House" className='sm:h-3/4 mt-8 w-full' />
+                        <img src={Truck} alt="House" className='sm:h-3/4 mt-8' />
                     </div>
                     {/* texts */}
                     <div className='pt-1 pb-10 sm:pr-8 lg:pr-16 px-5 sm:px-0'>
