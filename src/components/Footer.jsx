@@ -71,13 +71,14 @@ const Footer = () => {
                             {/* US */}
                             <div className='text-left'>
                                 <p className="text-white text-font text-[13px] sm:text-[10px] lg:text-xs font-normal tracking-wide mb-1">US Office:</p>
-                                <p className="text-white text-font text-[13px] sm:text-[10px] lg:text-xs font-normal mb-3 tracking-wide">Sledge Beanie Allied Service LLC</p>
+                                <p className="text-white text-font text-[13px] sm:text-[10px] lg:text-xs font-normal mb-2 tracking-wide">Sledge Beanie Allied Service LLC</p>
+                                <p className="text-white text-font text-[13px] sm:text-[10px] lg:text-xs font-normal tracking-wide mb-0">102A Stage Run Loop, Deadwood, <br />South Dakota, 57732.</p>
                             </div>
                             {/* Nigeria */}
-                            <div className='text-left mt-8'>
+                            <div className='text-left mt-4'>
                                 <p className="text-white text-font text-[13px] sm:text-[10px] lg:text-xs font-normal tracking-wide mb-1">Nigeria Operations Contact<b> :</b></p>
-                                <p className="text-white text-font text-[13px] sm:text-[10px] lg:text-xs font-normal tracking-wide mb-2">Suite CO2, SHM Complex Mabushi, <br />Abuja, Nigeria.</p>
-                                <p className="text-white text-font text-[13px] sm:text-[10px] lg:text-xs font-normal mb-3 tracking-wide">Sledge Beanie Allied Service LTD</p>
+                                <p className="text-white text-font text-[13px] sm:text-[10px] lg:text-xs font-normal mb-2 tracking-wide">Sledge Beanie Allied Service LTD</p>
+                                <p className="text-white text-font text-[13px] sm:text-[10px] lg:text-xs font-normal tracking-wide mb-0">Suite CO2, SHM Complex Mabushi, <br />Abuja, Nigeria.</p>
                             </div>
                         </div>
                     </div>
