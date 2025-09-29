@@ -55,7 +55,7 @@ export default function ServicePage() {
             {/* mobile menu view */}
             {
                 menu && (
-                    <div className="fixed inset-0 bg-black/90 z-30 flex flex-col justify-center items-center text-white">
+                    <div className="fixed inset-0 bg-black z-30 flex flex-col justify-center items-center text-white">
                         {/* cancel */}
                         <div className="absolute top-5 right-5">
                             <AiOutlineClose size={40} onClick={handleMenu} />
